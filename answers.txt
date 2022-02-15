@@ -1,0 +1,40 @@
+BRAINSTORMING
+- user id
+- name
+- email
+- password
+- recipes
+- grocery list
+- occasions
+- instructions
+- following/follower
+- recipe name
+
+TABLE IDEAS
+ - TABLE USERS - all the data for the USERS
+ - TABLE RECIPES - author of recipe, ingredients and instructions
+ - TABLE GROCERY LIST - needs ingredients
+ - TABLE OCCASIONS - name for the occasions and recipe associated
+ - TABLE FOLLOWS - indicates who follows who
+ - TABLE INGREDIENTS - shows ingredients
+ - TABLE INSTRUCTIONS - shows instructions
+ - TABLE USER_RECIPES - links users with recipes
+ - TABLE OCCASIONS_RECIPES - links occasions with RECIPES
+
+ RELATIONSHIPS
+- ONE TO ONE
+    - USERS/GROCERY - one user has one grocery list
+    - RECIPES/INGREDIENTS - one recipe only has one set of ingredients
+    - RECIPES/INSTRUCTIONS - one recipe only has one set of instructions
+
+- ONE TO MANY
+    - USERS/OCCASIONS - users can have multiple occasions
+    - USERS/FOLLOWS - users can have multiple followers
+    - GROCERY/INGREDIENTS - one grocery list can have ingredients for multiple recipes
+
+- MANY TO MANY
+    - USERS/RECIPES - many users can have many and the same recipes
+    - OCCASIONS/RECIPES - different occasions can have the same recipes
+
+COLUMNS
+
